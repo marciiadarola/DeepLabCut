@@ -31,9 +31,9 @@ y2 = 624
 #########################################################################################
 # Analysis Network parameters (so that the right networks is loaded for analysis)
 #########################################################################################
-scorer = 'Mackenzie'
+scorer = 'Anna'
 Task = 'reaching'
-date = 'Jan30'
+date = 'Jun21'
 trainingsFraction = 0.95  # Fraction of labeled images used for training
 resnet = 50
 snapshotindex = -1
