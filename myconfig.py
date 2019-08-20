@@ -68,7 +68,7 @@ alphavalue =.6 #transparency of labels
 ########################################
 
 date = 'Jun21'
-scorer = 'Anna'
+scorer = 'Marci'
 
 # Userparameters for training set. Other parameters can be set in pose_cfg.yaml
 Shuffles = [1]  # Ids for shuffles, i.e. range(5) for 5 shuffles
