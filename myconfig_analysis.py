@@ -31,7 +31,7 @@ y2 = 624
 #########################################################################################
 # Analysis Network parameters (so that the right networks is loaded for analysis)
 #########################################################################################
-scorer = 'Anna'
+scorer = 'Marci'
 Task = 'reaching'
 date = 'Jun21'
 trainingsFraction = 0.95  # Fraction of labeled images used for training
