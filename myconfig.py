@@ -35,7 +35,7 @@ portion = 1
 # Step 2: Converting frames to pandas array 
 ########################################
 
-bodyparts = ["leftPaw","rightPaw"]  # Exact sequence of labels as were put by
+bodyparts = ["Current_pelletBottom","Current_pelletSide","Current_pelletTop","middle_knuckleBottom","middle_knuckleSide","middle_knuckleTop","middle_tipBottom","middle_tipSide","middle_tipTop","palmBottom","palmSide","palmTop","pinky_knuckleBottom","pinky_knuckleSide","pinky_knuckleTop","pinky_tipBottom","pinky_tipSide","pinky_tipTop","pointer_knuckleBottom","pointer_knuckleSide","pointer_knuckleTop","pointer_tipBottom","pointer_tipSide","pointer_tipTop","ring_knuckleBottom","ring_knuckleSide","ring_knuckleTop","ring_tipBottom","ring_tipSide","ring_tipTop","thumb_knuckleBottom","thumb_knuckleSide","thumb_knuckleTop","thumb_tipBottom","thumb_tipSide","thumb_tipTop","wristBottom","wristSide","wristTop"]  # Exact sequence of labels as were put by
 # annotator in *.csv file
 Scorers = ['Marci']  # who is labeling?
 
