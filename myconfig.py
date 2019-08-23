@@ -37,7 +37,7 @@ portion = 1
 
 bodyparts = ["leftPaw","rightPaw"]  # Exact sequence of labels as were put by
 # annotator in *.csv file
-Scorers = ['Anna']  # who is labeling?
+Scorers = ['Marci']  # who is labeling?
 
 # Set this true if the data was sequentially labeled and if there is one file per folder (you can set the name of this file below, i.e. multibodypartsfilename)
 # Otherwise there should be individual files per bodypart, i.e. in our demo case hand.csv, Finger1.csv etc.
