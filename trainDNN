@@ -10,7 +10,7 @@
 to this file
 #SBATCH --mail-type=END # Send an email when the job ends
 module load gcc/6.2.0 cuda/9.0 python/3.6.0
-cd C:\Users\Sabatini Lab\Documents\GitHub\DeepLabCut
+cd /files/Neurobio/MICROSCOPE/Marci/DeepLabCut
 source Virtualenv/bin/activate
-cd C:\Users\Sabatini Lab\Documents\GitHub\DeepLabCut\pose-tensorflow\models\reachingJan30-trainset95shuffle1\train
-python3 C:\Users\Sabatini Lab\Documents\GitHub\DeepLabCut\pose-tensorflow\train.py
+cd /files/Neurobio/MICROSCOPE/Marci/DeepLabCut/pose-tensorflow/models/reachingJan30-trainset95shuffle1/train
+python3 /files/Neurobio/MICROSCOPE/Marci/DeepLabCut/pose-tensorflow/train.py
