@@ -98,10 +98,10 @@ for scorer in Scorers:
             for bodypart in bodyparts:
                 datafile = bodypart
                 try:
-                    dframe = pd.read_csv(datafile + ".xls",sep=None,engine='python') #, sep='\t')
+                    dframe = pd.read_csv(datafile + ".xls",sep=None,engine='python') #)
                 except:
                     os.rename(datafile + ".csv", datafile + ".xls")
-                    dframe = pd.read_csv(datafile + ".xls",sep=None,engine='python') #, sep='\t')
+                    dframe = pd.read_csv(datafile + ".xls",sep=None,engine='python') #)
 
                 # Note: If your csv file is not correctly loaded, then a common error is:
                 # "AttributeError: 'DataFrame' object has no attribute 'X'" or the corresponding error with Slice
